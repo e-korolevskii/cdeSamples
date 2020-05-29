@@ -1,0 +1,184 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: CDESDK
+Upstream-Contact:  <>
+Source: https://github.com/TRUMPF-IoT/cdeSDK
+
+Files:  src/NMITestRelay/CDMyNewNMIDemo/ClientBin/Images/*
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files:   src/NMITestRelay/CDMyNewNMIDemo/ClientBin/PSE/CSS/MyNMIStyle.css
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files:  src/NMITestRelay/CDMyNewNMIDemo/ClientBin/PSE/PAGES/MyPage.html
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files:  src/NMITestRelay/CDMyNewNMIDemo/ClientBin/PSE/Videos/bunny.mp4
+Copyright: (c) copyright 2008, Blender Foundation / www.bigbuckbunny.org
+License: CC-BY-3.0
+
+Files:   src/NMITestRelay/NMITestRelay/app.config
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files:   src/readme.md
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: README.md
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/cdeSamples.sln
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/HackChatXAML/HCXaml/App.xaml
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/HackChatXAML/HCXaml/Assets/LockScreenLogo.scale-200.png
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/HackChatXAML/HCXaml/Assets/SplashScreen.scale-200.png
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/HackChatXAML/HCXaml/Assets/Square150x150Logo.scale-200.png
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/HackChatXAML/HCXaml/Assets/Square44x44Logo.scale-200.png
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/HackChatXAML/HCXaml/Assets/Square44x44Logo.targetsize-24_altform-unplated.png
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/HackChatXAML/HCXaml/Assets/StoreLogo.png
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/HackChatXAML/HCXaml/Assets/Wide310x150Logo.scale-200.png
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/HackChatXAML/HCXaml/MainPage.xaml
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/HackChatXAML/HCXaml/Package.appxmanifest
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/readme.md
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/WPF/ChatClientWPF/App.config
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/WPF/ChatClientWPF/App.xaml
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/WPF/ChatClientWPF/MainWindow.xaml
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/WPF/ChatClientWPF/Properties/Resources.resx
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/WPF/ChatClientWPF/Properties/Settings.settings
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/AppHostTest/App.config
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/AppHostTest/MainForm.resx
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/AppHostTest/Properties/Resources.resx
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/AppHostTest/Properties/Settings.settings
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/RESTClient/RESTClient/App.config
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/RESTClient/RESTClient/Form1.resx
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/RESTClient/RESTClient/packages.config
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/RESTClient/RESTClient/Properties/Resources.resx
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/RESTClient/RESTClient/Properties/Settings.settings
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/RESTServer/CDMyRestApiSampleMileRecordHolders/CDMyRestApiSampleMileRecordHolders/CLabsCDEngine.ICO
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/RESTServer/CDMyThingInspector/CDMyThingInspector/CLabsCDEngine.ICO
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/MyTestHost/.dockerignore
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/MyTestHost/docker-compose.dcproj
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/MyTestHost/MyTestHost/cdePlugin.ICO
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/MyTestHost/MyTestHost/Properties/launchSettings.json
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/MyTestHost/MyTestHost2/cdePlugin.ICO
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/MyTestHost/MyTestHost2/Properties/launchSettings.json
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/Web2Mesh/AppHostTest/App.config
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/Web2Mesh/AppHostTest/MainForm.resx
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/Web2Mesh/AppHostTest/Properties/Resources.resx
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/Web2Mesh/AppHostTest/Properties/Settings.settings
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
