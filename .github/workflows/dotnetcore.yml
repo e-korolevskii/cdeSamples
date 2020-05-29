@@ -29,9 +29,6 @@ jobs:
         dotnet-version: 3.1.201
         source-url: https://api.nuget.org/v3/index.json
         config-file: .\nuget.config
-        owner: ${{secrets.NUGETORG_APIKEY_OWNER}}
-      env:
-        NUGET_AUTH_TOKEN: ${{secrets.NUGETORG_APIKEY}}
 
     # gitversion requires full history and tags
     - name: Fetch unshallow
