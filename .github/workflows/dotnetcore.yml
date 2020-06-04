@@ -46,8 +46,8 @@ jobs:
       run: dotnet restore './src/cdeSamples.sln'
 
     # Workaround for gitversiontask lock exception: build a single targetframework first
-    - name: Build PackagerInstaller
-      run: dotnet build './BuildTools/PackagerInstaller\PackagerInstaller.csproj' --framework net45 --configuration Release --no-restore --disable-parallel
+    - name: Build cdeHostProject1
+      run: dotnet build 'src/MyNetCoreHost/cdeHostProject1/cdeHostProject1.csproj' --configuration Release --no-restore --disable-parallel
 
     - name: Build Samples
       run: dotnet build './src/cdeSamples.sln' --configuration Debug --no-restore --disable-parallel
