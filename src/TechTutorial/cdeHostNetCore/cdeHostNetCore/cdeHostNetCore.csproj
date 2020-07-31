@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefineConstants>TRACE;CDE_SYSLOG</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="CDMyC3" Version="5.106.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\C-DEngine\src\C-DEngine\C-DEngine.csproj" />
+    <ProjectReference Include="..\..\..\..\..\cdeNMI\src\HTML5\CDMyNMIHtml5RT\CDMyNMIHtml5RT.csproj" />
+    <ProjectReference Include="..\..\..\..\..\cdePlugins\src\040 - C-MyComputer\C-DMyComputer (PC)\C-DMyComputer.csproj" />
+    <ProjectReference Include="..\..\..\..\..\cdePlugins\src\066 - C-MyVThings\C-DMyVThings\C-DMyVThings.csproj" />
+    <ProjectReference Include="..\..\..\..\..\cdePlugins\src\079 - CDMyMessages\C-DMyMessages\C-DMyMessages.csproj" />
+    <ProjectReference Include="..\..\..\..\..\cdePlugins\src\093 - CDMyNetwork\C-DMyNetwork\C-DMyNetwork.csproj" />
+    <ProjectReference Include="..\..\..\..\..\cdePlugins\src\149 - CDMyRulesEngine\CDMyRulesEngine\CDMyRulesEngine.csproj" />
+    <ProjectReference Include="..\..\..\..\..\cdePlugins\src\178 - External Logger\CDMyLogger\CDMyLogger.csproj" />
+    <ProjectReference Include="..\..\..\..\..\cdePlugins\src\188 - PrometheusExporter\CDMyPrometheusExporter\CDMyPrometheusExporter.csproj" />
+    <ProjectReference Include="..\..\..\..\..\cdePlugins\src\309 - Industrie 4.0 AASX\CDMyAASX\CDMyAASX.csproj" />
+  </ItemGroup>
+
+</Project>
