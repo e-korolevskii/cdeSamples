@@ -27,7 +27,6 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.102
-        source-url: https://api.nuget.org/v3/index.json
         config-file: .\nuget.config
 
     # gitversion requires full history and tags
