@@ -26,7 +26,7 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 3.1.201
+        dotnet-version: 5.0.102
         source-url: https://api.nuget.org/v3/index.json
         config-file: .\nuget.config
 
@@ -68,5 +68,6 @@ jobs:
 
     - name: REUSE Compliance Check
       run: |
+        pip3 install --user python-debian==0.1.38 # newer versions fail on Windows as of January 2021
         pip3 install --user reuse
         reuse lint
