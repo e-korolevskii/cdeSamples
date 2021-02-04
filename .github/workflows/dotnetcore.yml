@@ -23,11 +23,16 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Setup .NET Core
+    - name: Setup .NET 5
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.102
-        source-url: https://api.nuget.org/v3/index.json
+        config-file: .\nuget.config
+        
+    - name: Setup .NET Core 3.1
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.201
         config-file: .\nuget.config
 
     # gitversion requires full history and tags
