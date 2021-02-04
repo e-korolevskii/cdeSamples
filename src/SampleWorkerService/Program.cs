@@ -1,9 +1,9 @@
+// SPDX-FileCopyrightText: 2021 C-Labs
+//
+// SPDX-License-Identifier: MPL-2.0
+
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SampleWorkerService
 {

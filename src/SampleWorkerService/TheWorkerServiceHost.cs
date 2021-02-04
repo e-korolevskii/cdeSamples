@@ -1,19 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using nsCDEngine.BaseClasses;
-using nsCDEngine.Security;
-using nsCDEngine.ViewModels;
-using nsCDEngine.Interfaces;
-using nsCDEngine.ISM;
-using System.IO;
-using System.Threading;
-using System.Diagnostics;
+﻿// SPDX-FileCopyrightText: 2021 C-Labs
+//
+// SPDX-License-Identifier: MPL-2.0
+
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Configuration;
+using nsCDEngine.BaseClasses;
+using nsCDEngine.Interfaces;
+using nsCDEngine.ISM;
+using nsCDEngine.Security;
+using nsCDEngine.ViewModels;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 using CU = nsCDEngine.BaseClasses.TheCommonUtils;
 
 namespace cdeWorkerService
