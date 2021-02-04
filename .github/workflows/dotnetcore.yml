@@ -23,7 +23,13 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Setup .NET Core
+    - name: Setup .NET 5
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.102
+        config-file: .\nuget.config
+        
+    - name: Setup .NET Core 3.1
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.201
@@ -69,5 +75,6 @@ jobs:
 
     - name: REUSE Compliance Check
       run: |
+        pip3 install --user python-debian==0.1.38 # newer versions fail on Windows as of January 2021
         pip3 install --user reuse
         reuse lint

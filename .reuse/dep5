@@ -182,3 +182,15 @@ License: MPL-2.0
 Files: src/Web2Mesh/AppHostTest/Properties/Settings.settings
 Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
 License: MPL-2.0
+
+Files: src/TechTutorial/*
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/.dockerignore
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: .gitattributes
+Copyright: 2009-2020 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0

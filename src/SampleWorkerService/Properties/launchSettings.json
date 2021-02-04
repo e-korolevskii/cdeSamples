@@ -1,0 +1,16 @@
+// SPDX-FileCopyrightText: Copyright (c) 2021 C-Labs
+// SPDX-License-Identifier: MPL-2.0
+{
+  "profiles": {
+    "SampleWorkerService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": "true"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
