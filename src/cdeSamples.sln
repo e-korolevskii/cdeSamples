@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32104.313
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CDMyHistorianSample", "CDMyHistorianSample\CDMyHistorianSample.csproj", "{2EA9138F-C030-4999-9EB6-A8D42B2748AA}"
 EndProject
@@ -41,7 +41,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CDMyNewNMIDemo", "NMITestRe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NMITestRelay", "NMITestRelay\NMITestRelay\NMITestRelay.csproj", "{27441013-4BFB-4E4C-84BA-AF4A61170E18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWorkerService", "SampleWorkerService\SampleWorkerService.csproj", "{555547A4-164F-408A-B1DC-4D53F27C0847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleWorkerService", "SampleWorkerService\SampleWorkerService.csproj", "{555547A4-164F-408A-B1DC-4D53F27C0847}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Licenses", "_Licenses", "{123326DE-8420-4158-BFC9-A9FAA4E9B9B9}"
+	ProjectSection(SolutionItems) = preProject
+		..\.reuse\dep5 = ..\.reuse\dep5
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
