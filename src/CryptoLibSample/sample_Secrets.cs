@@ -55,6 +55,19 @@ namespace nsSample.Security
             return "Core-Crypto OSS";
         }
 
+        public bool IsXBoxNative()
+        {
+            try
+            {
+                var tTestAssembly = System.Reflection.Assembly.LoadFrom("dummy");
+            }
+            catch (PlatformNotSupportedException)
+            {
+                return true;
+            }
+            return false;
+        }
+
         /// <summary>
         /// Verify if the incoming Application ID is in the Application Scope
         /// </summary>
