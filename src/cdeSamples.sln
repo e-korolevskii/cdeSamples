@@ -30,6 +30,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CDMyWebToMeshSample", "Web2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Docs", "_Docs", "{004616C9-067F-44D4-9704-A8C63962EFFA}"
 	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\dotnetcore.yml = ..\.github\workflows\dotnetcore.yml
 		readme.md = readme.md
 	EndProjectSection
 EndProject
