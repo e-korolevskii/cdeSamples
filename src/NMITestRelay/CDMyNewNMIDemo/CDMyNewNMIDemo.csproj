@@ -4,13 +4,13 @@
  SPDX-License-Identifier: MPL-2.0
  -->
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net45;net40;net35</TargetFrameworks>
-        <Version>4.302.0</Version>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+        <Version>5.145.0</Version>
         <Authors>Chris Muench</Authors>
         <Company>C-Labs</Company>
         <Product>C-DMyNewNMIDemo</Product>
         <Description>Demo of all Controls</Description>
-        <Copyright>(C) 2017-2020 C-Labs</Copyright>
+        <Copyright>(C) 2017-2022 C-Labs</Copyright>
     <ProjectName>$(AssemblyName).$(TargetFramework)</ProjectName>
   </PropertyGroup>
 
@@ -27,34 +27,31 @@
     <Compile Remove="bin\**" />
     <Compile Remove="ClientBin\**" />
     <Compile Remove="HTML5\**" />
+    <Compile Remove="NMIControls\**" />
     <Compile Remove="obj\**" />
     <Compile Remove="ViewModels\**" />
     <EmbeddedResource Remove="bin\**" />
     <EmbeddedResource Remove="ClientBin\**" />
     <EmbeddedResource Remove="HTML5\**" />
+    <EmbeddedResource Remove="NMIControls\**" />
     <EmbeddedResource Remove="obj\**" />
     <EmbeddedResource Remove="ViewModels\**" />
     <None Remove="bin\**" />
     <None Remove="ClientBin\**" />
     <None Remove="HTML5\**" />
+    <None Remove="NMIControls\**" />
     <None Remove="obj\**" />
     <None Remove="ViewModels\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="NEW_NMI_Demo.cs" />
-    <Compile Remove="Properties\AssemblyInfo.cs" />
     <Compile Remove="TestingPage.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="packages.config" />
     <None Remove="tsconfig.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="NMIControls\" />
-    <Folder Include="Properties\" />
   </ItemGroup>
 
   <ItemGroup>

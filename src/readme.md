@@ -16,7 +16,7 @@ Shows how to use the HttpInterceptor in the C-DEngine to create custom endpoints
 
 ### MyNetCoreHost
 
-Minimalistic project creating a host and plugin for .NET Core 3.1
+Minimalistic project creating a host and plugin for .NET 6.0
 
 ### MyTestHost
 

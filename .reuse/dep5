@@ -95,7 +95,15 @@ Files: src/ChatSamples/WPF/ChatClientWPF/Properties/Resources.resx
 Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
 License: MPL-2.0
 
+Files: src/ChatSamples/WPF/ChatClientWPF/Properties/Resources.Designer.cs
+Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
 Files: src/ChatSamples/WPF/ChatClientWPF/Properties/Settings.settings
+Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/ChatSamples/WPF/ChatClientWPF/Properties/Settings.Designer.cs
 Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
 License: MPL-2.0
 
@@ -111,7 +119,15 @@ Files: src/HttpInterceptor/AppHostTest/Properties/Resources.resx
 Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
 License: MPL-2.0
 
+Files: src/HttpInterceptor/AppHostTest/Properties/Resources.Designer.cs
+Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
 Files: src/HttpInterceptor/AppHostTest/Properties/Settings.settings
+Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/HttpInterceptor/AppHostTest/Properties/Settings.Designer.cs
 Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
 License: MPL-2.0
 
@@ -179,7 +195,15 @@ Files: src/Web2Mesh/AppHostTest/Properties/Resources.resx
 Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
 License: MPL-2.0
 
+Files: src/Web2Mesh/AppHostTest/Properties/Resources.Designer.cs
+Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
 Files: src/Web2Mesh/AppHostTest/Properties/Settings.settings
+Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
+License: MPL-2.0
+
+Files: src/Web2Mesh/AppHostTest/Properties/Settings.Designer.cs
 Copyright: 2009-2022 TRUMPF Laser GmbH, authors: C-Labs
 License: MPL-2.0
 

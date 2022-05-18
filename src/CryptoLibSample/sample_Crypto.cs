@@ -143,11 +143,7 @@ namespace nsSample.Security
                 rsa = new RSACryptoServiceProvider();
                 rsa.FromXmlString(RSAKey);
             }
-#if (!CDE_STANDARD) // RSA Decrypt parameter different (padding enum vs. bool)
-                byte[] tBytes = rsa.Decrypt(val, false);
-#else
             byte[] tBytes = rsa.Decrypt(val, RSAEncryptionPadding.Pkcs1);
-#endif
             return Encoding.UTF8.GetString(tBytes, 0, tBytes.Length);
         }
 
